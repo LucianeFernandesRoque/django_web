@@ -47,3 +47,6 @@ from base.views import inicio
     urlpatterns = [
     path('', inicio)]
 ```
+
+Instalar o Bootstrap
+`pip install django-bootstrap-v5`
