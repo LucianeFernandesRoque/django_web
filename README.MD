@@ -28,3 +28,22 @@ Instalar o Django `pip install django`
 Criar o projeto `django-admin-startproject nome_do_projeto .`
 rodar o projeto `python3 manage.py runserver`
 rodar novo aplicativo `python3 manage.py startapp base` Todas as partes de funcionalidades, por exemplo cadastro de curso e etc. fica na pasta app/base
+
+settings.py => Arquiva todas as configurações principais do nosso sistema, cadastrar nossos apps, configuração do nosso banco de dados e sobre urls. 
+projeto => vai ficar as configurações gerais do nosso sistema/
+app => Vai implementar as funcionalidades especificas.
+
+sempre que criar um novo aplicativo temos que falar para projeto em settings.py e setar que ele foi instalado
+
+
+- Como criar uma view em urls.py
+```python
+    def inicio(request):
+    return HttpResponse('Olá, mundo!')
+```
+- Como setar a url
+```python
+from base.views import inicio
+    urlpatterns = [
+    path('', inicio)]
+```
