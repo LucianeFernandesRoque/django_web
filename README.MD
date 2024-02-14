@@ -22,3 +22,9 @@
 1- Instalação do ambiente virtual
 2- Criação do ambiente virtual
 3- Ativação
+
+### Instalando o Django
+Instalar o Django `pip install django`
+Criar o projeto `django-admin-startproject nome_do_projeto .`
+rodar o projeto `python3 manage.py runserver`
+rodar novo aplicativo `python3 manage.py startapp base` Todas as partes de funcionalidades, por exemplo cadastro de curso e etc. fica na pasta app/base
