@@ -50,3 +50,11 @@ from base.views import inicio
 
 Instalar o Bootstrap
 `pip install django-bootstrap-v5`
+
+### Formulários em Django
+É composto por 3 classes principais
+- A classe do formulário que é uma classe que vai representar todo o formulário que vai ser processado 
+e nela que vamos definir quais campos, que nós temos que validar.
+- Field que é um campo específico do formulário, que tipo, quais validações ele terá,
+exemplo de campos: nome, senha ou email.
+- WIDGET
