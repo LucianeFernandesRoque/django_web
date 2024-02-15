@@ -72,3 +72,11 @@ se o campo em questão é valido se o form é is_valid cria um registro automati
 
 - DjangoForms tem uma classe especial de formulários que são baseadas em models que se chama o model Form
 - Essa classe evita duplicidade de informações
+
+### Django Admin
+`python3 manage.py createsuperuser`
+
+sistema de grupos
+sistema de usuários.
+
+Em admin.py quando queremos registrar o modelo em admim @admin.registrar(Cadastro)
