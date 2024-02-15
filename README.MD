@@ -58,3 +58,17 @@ e nela que vamos definir quais campos, que nós temos que validar.
 - Field que é um campo específico do formulário, que tipo, quais validações ele terá,
 exemplo de campos: nome, senha ou email.
 - WIDGET
+
+### Models e ModelForm
+ Uma abstração de classe python representa uma tabela no banco de dados
+ Se quisermos alterar o banco de dados, temos que ir em projetos e setar em settings, por default vem o sqlLite.
+ Sempre que houver alterações no banco de dados temos que fazer dois comandos migrações.
+ `python3 manage.py makemigrations` gera o arquivo informando o que precisa ser enviado para o banco.
+ `python3 manage.py migrate` envia de fato para o banco
+
+- Salvando dados na view
+- sempre que o form for validado, uma propriedade chamada forms.cleaned_data que verifica como se fosse um dicionario
+se o campo em questão é valido se o form é is_valid cria um registro automaticamente no nosso banco
+
+- DjangoForms tem uma classe especial de formulários que são baseadas em models que se chama o model Form
+- Essa classe evita duplicidade de informações

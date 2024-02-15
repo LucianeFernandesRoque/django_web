@@ -8,7 +8,7 @@
     <div class="alert alert-success" role="alert">
       Cadastro realizado com sucesso!
     </div>
-  {% endif %}
+  {% else %}
   <form action="" method="POST" id="form">
 
     {% csrf_token %}
@@ -16,4 +16,5 @@
     <button type="submit" class="btn btn-primary">Finalizar cadastro</button>
 
   </form>
+  {% endif %}
 {% endblock %}
