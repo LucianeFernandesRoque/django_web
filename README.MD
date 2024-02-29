@@ -83,3 +83,5 @@ Em admin.py quando queremos registrar o modelo em admim @admin.registrar(Cadastr
 
 ### Trabalhando com o cache REDIS
 - Redis é um armazenamento de estrutura de dados em memória, usado como um banco de dados em memória distribuído de chave-valor, cache e agente de mensagens, com durabilidade opcional.Armazena diretamente na memória ram, consequentemente o torna mais rapido.
+
+### Rest transferência do estado representacional
