@@ -85,3 +85,10 @@ Em admin.py quando queremos registrar o modelo em admim @admin.registrar(Cadastr
 - Redis é um armazenamento de estrutura de dados em memória, usado como um banco de dados em memória distribuído de chave-valor, cache e agente de mensagens, com durabilidade opcional.Armazena diretamente na memória ram, consequentemente o torna mais rapido.
 
 ### Rest transferência do estado representacional
+Quando estamos trabalhando nós construímos model model view sett, que basicamente é um conjunto de operações que podemos estar adicionando em uma view.
+model view set(get,post,put,path,delete,head) como acessando as models dos nossos aplicativos.
+
+### Serializers
+converter os nossos dados ou objetos em json
+queryset => vai ser executado para conseguir rodar os objetos do nosso recurso, os objetos que estão cadastrados na nossa model de curso.
+Serializer => converte os nossos dados em instancias de model, para um formato que nós conseguimos entender.
