@@ -116,3 +116,10 @@ pq testes?
 voce recebe 'alertas' quando quebra algo
 Menos bugs
 Trabalho sem medo de erros
+
+### Instalando bibliotecas de teste
+`pip install pytest-django`
+`pip install py test`
+
+para verificar se esta funcionando 
+`pytest`
