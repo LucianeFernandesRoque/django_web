@@ -92,3 +92,27 @@ model view set(get,post,put,path,delete,head) como acessando as models dos nosso
 converter os nossos dados ou objetos em json
 queryset => vai ser executado para conseguir rodar os objetos do nosso recurso, os objetos que estão cadastrados na nossa model de curso.
 Serializer => converte os nossos dados em instancias de model, para um formato que nós conseguimos entender.
+
+
+### Testes
+
+### tipo de testes
+Testes de software é um conjunto de processos com os quais se pretende validar um sistema ou aplicação, em momentos diferentes, para verificar seu correto funcionamento.
+
+Tipo funcional - Testes de unidade, testes de interface, teste de regressão
+Unitário - Qualquer função, procedimento, método ou módulo pode ser uma unidade testada.
+
+Integração - Testar módulos em grupo
+Não funcional - Funcionalidades testadas sob-cargas
+Usabilidade - interação humano computador
+Desempenho - Determina a velocidade, estabilidade e escalabilidade em grupo.
+
+- Testes de acessibilidade
+- Testes de clique
+- Testes black-box
+- Testes de intrusão
+
+pq testes?
+voce recebe 'alertas' quando quebra algo
+Menos bugs
+Trabalho sem medo de erros
