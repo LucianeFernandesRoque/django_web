@@ -49,7 +49,7 @@ from base.views import inicio
 ```
 
 Instalar o Bootstrap
-`pip install django-bootstrap-v5`
+`pip install Django-bootstrap-v5`
 
 ### Formulários em Django
 É composto por 3 classes principais
