@@ -1,4 +1,4 @@
-#!/home/luciane/workspace/django_web/cadastro_curso_wo_makers/bin/python3
+#!/home/luciane/workspace/django_web/cadastro_curso_wo_makers/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
