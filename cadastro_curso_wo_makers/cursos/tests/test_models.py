@@ -5,14 +5,18 @@ import pytest
 # def test_config():
 #     assert 1==1
 
-@pytest.mark.django_db
-def test_str_must_formatted_string():
+@pytest.fixture
+def curso():
     today = date.today()
     curso = baker.make(
         Curso,
         titulo = 'Java',
-        data_do_curso = date.today(),
+        data_do_curso = today,
         carga_horaria = '50'
     )
-    assert str(curso) == f'Java: {today} - 50'
+    return curso, today
 
+@pytest.mark.django_db
+def test_str_must_return_string(curso):
+    curso, today = curso
+    assert str(curso) == f'Java: {today} - 50'
